@@ -11,7 +11,21 @@ div {
   width: 272px;
 }
 #search {
-  height: 118px;
-  width: 60vw;
+  margin-top: 0;
+  top: 269px;
+  position: absolute;
+  /* height: 118px; */
+  /* width: 60vw; */
+  min-width: 100vw;
   text-align: center;
+  width: 100%;
 }
+#bar {
+  border: 1px solid #c0c0c0;
+  border-radius: 20px;
+  width: 582px;
+  height: 44px;
+  padding: 12px 30px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
