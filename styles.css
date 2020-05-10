@@ -2,6 +2,13 @@ body {
   font-size: small;
   color: #222;
 }
+body,
+td,
+a,
+p,
+.h {
+  font-family: arial, sans-serif;
+}
 #viewport {
   position: absolute;
   top: 0;
@@ -13,28 +20,31 @@ div {
 }
 ul {
   list-style-type: none;
-}
-li a {
-  text-decoration: none;
-}
-li {
-  /* display: inline; */
-  text-align: center;
-}
-.l-nav {
-  display: block;
-  padding: 8px;
-}
-.nav {
-  display: block;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
-#l-nav {
+.l-li {
   float: left;
 }
+.l-li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  opacity: 0.75;
+  font-size: 13px;
+}
+a:visited {
+  color: #609;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 #main {
-  margin-top: 47px;
+  /* margin-top: 47px; */
   height: 233px;
   padding-top: 109px;
 }
