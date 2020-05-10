@@ -18,11 +18,53 @@ p,
 div {
   text-align: center;
 }
+#l-nav {
+  width: 30vw;
+}
+#r-nav {
+  float: right;
+}
+.r-li {
+  float: right;
+}
+.r-li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  opacity: 0.75;
+  font-size: 13px;
+}
+.text {
+  padding-top: 5px;
+}
+#sign {
+  margin: 15px;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background-color: #4285f4;
+  color: white;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 2px;
+}
+#sign:hover {
+  cursor: pointer;
+}
+#icon {
+  margin-top: -15px;
+}
+#icon:hover {
+  cursor: pointer;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .l-li {
   float: left;
@@ -44,7 +86,7 @@ a:hover {
   text-decoration: underline;
 }
 #main {
-  /* margin-top: 47px; */
+  margin-top: 47px;
   height: 233px;
   padding-top: 109px;
 }
