@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
 body {
   font-size: small;
   color: #222;
@@ -8,7 +13,9 @@ a,
 p,
 .h {
   font-family: arial, sans-serif;
+  text-transform: capitalize;
 }
+
 #viewport {
   position: absolute;
   top: 0;
@@ -78,6 +85,9 @@ ul {
   opacity: 0.75;
   font-size: 13px;
 }
+a {
+  text-decoration: none;
+}
 a:visited {
   color: #609;
 }
@@ -145,7 +155,7 @@ input[type="submit"] {
   background-color: #f2f2f2;
   margin: 11px 4px;
   padding: 0px 16px;
-  border: 1px solid;
+  border: 1px transparent;
   color: #5f6368;
   font-family: arial, sans-serif;
   font-size: 14px;
@@ -161,4 +171,40 @@ input[type="submit"]:hover {
   background-color: f8f8f8;
   border: 1px solid c6c6c6;
   color: #222;
+}
+
+.footer {
+  width: 100%;
+  height: 81px;
+
+  display: block;
+  color: #5f6368;
+  font-size: 14px;
+  line-height: 40px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+  position: fixed;
+  /* background: black; */
+  /* bottom: 0; */
+  /* position: absolute; */
+}
+#location {
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 40px;
+}
+.footer a {
+  padding-left: 27px;
+  margin: 0;
+  color: #5f6368;
+}
+#loc {
+  float: left;
+  margin-left: 27px;
+}
+.f-span {
+  margin-left: 27px;
+  display: inline-block;
 }
