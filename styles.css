@@ -120,36 +120,15 @@ a:hover {
 #bar {
   border: 1px solid #c0c0c0;
   border-radius: 20px;
-  width: 582px;
-  height: 44px;
+  width: 460px;
+  height: 39px;
   padding: 12px 30px;
   margin: 0px;
   box-sizing: border-box;
   outline: none;
   cursor: text;
 }
-/* #gs {
-  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
-  background-color: #f2f2f2;
-  margin: 11px 4px;
-  padding: 0px 16px;
-  border: 1px solid;
-  color: #5f6368;
-  font-family: arial, sans-serif;
-  border-radius: 4px;
-  min-width: 54px;
-  height: 36px;
-} */
-/* #ifl {
-  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
-  background-color: #f2f2f2;
-  margin: 11px 4px;
-  padding: 0px 16px;
-  border: 1px;
-  min-width: 54px;
-  height: 36px;
-  text-align: center;
-} */
+
 input[type="submit"] {
   background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
   background-color: #f2f2f2;
@@ -207,4 +186,13 @@ input[type="submit"]:hover {
 .f-span {
   margin-left: 27px;
   display: inline-block;
+}
+#left-s {
+  width: auto;
+  height: auto;
+  float: left;
+}
+#right-s {
+  float: right;
+  margin-right: 30px;
 }
