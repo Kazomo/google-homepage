@@ -171,7 +171,6 @@ input[type="submit"]:hover {
 .footer {
   width: 100%;
   height: 81px;
-
   display: block;
   color: #5f6368;
   font-size: 14px;
@@ -192,7 +191,6 @@ input[type="submit"]:hover {
 }
 .footer a {
   padding-left: 27px;
-  margin: 0;
   color: #5f6368;
 }
 #loc {
@@ -200,7 +198,6 @@ input[type="submit"]:hover {
   margin-left: 27px;
 }
 .f-span {
-  margin-left: 27px;
   display: inline-block;
 }
 #left-s {
